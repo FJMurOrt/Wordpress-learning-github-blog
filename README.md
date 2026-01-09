@@ -20,7 +20,7 @@ This WordPress blog was created as a personal project to **learn WordPress as a 
 2. Upload this child theme folder to `wp-content/themes/`.
 3. Activate the child theme from the WordPress dashboard.
 
-> ⚠️ Note: Most of the blog's settings, posts, and media are stored in the WordPress database. Installing the child theme alone will **not replicate the full blog content**. This repository mainly showcases the custom theme, styling, and API integration.
+⚠️ ***Note: Most of the blog's settings, posts, and media are stored in the WordPress database. Installing the child theme alone will **not replicate the full blog content**. This repository mainly showcases the custom theme, styling, and API integration.***
 
 ## Live Demo
 [Control+Z](https://controlz.lovestoblog.com/)
