@@ -1,0 +1,168 @@
+/**
+Theme Name: Astra Child
+Template: astra
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+*/
+
+
+/*-----------PARA QUE LA ANIMACIÓN DEL TEXTO DEL MENÚ VAYA MÁS LENTA Y DE FUERA HACIA DENTRO------*/
+
+.menu-item a::before {
+    transition: width 0.7s ease-in-out !important;
+}
+
+/*-----------PARA IMPORTAR Y PODER USAR LA FUENTE DE ROBOTO Y MONTSERRAT------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+/*-----------------------------PARA APLICARLE ESTILO A LOS REPOSITORIOS--------------------------*/
+
+.github-repos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.github-repos li {
+    background: #d2cad5;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 2px rgb(93, 61, 123) solid;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.github-repos li:hover {
+    background: #a483b6;
+    transform: translateY(-2px);
+}
+
+.github-repos li a {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #75448d;
+    text-decoration: none;
+}
+
+.github-repos li a:hover {
+    text-decoration: underline;
+}
+
+.github-repos li .repo-description {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+
+/*-----------------ESTILOS PARA EL FORMULARIO DE CONTACTO Y LOS FORMUALARIOS PARA DEJAR UN COMENTARIO--------------------*/
+
+.wpcf7-form {
+    border: 2px solid #ab57c4;
+    border-radius: 12px;
+    padding: 15px 20px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.4s ease;
+    background-color: #d4c0e4;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.wpcf7-form:hover {
+    border-color: #7a5f79;
+    box-shadow: 0 0 15px rgba(95, 13, 99, 0.7);
+}
+
+.comment-form {
+    border: 2px solid #ab57c4;         
+    border-radius: 12px;                
+    padding: 25px;                       
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    transition: all 0.4s ease;          
+    background-color: #d4c0e4;         
+    max-width: 600px;                   
+    margin: 20px auto;                   
+}
+
+.comment-form:hover {
+    border-color: #7a5f79;              
+    box-shadow: 0 0 15px rgba(95, 13, 99, 0.7); 
+}
+
+
+/*-----------------ESTILOS PARA EL TAMAÑO DEL DISPLAY DEL PDF--------------------*/
+
+.pdfemb-viewer {
+  max-width: 700px !important;
+  width: 100% !important;
+  margin: 0 auto;
+  overflow: visible !important;
+  box-sizing: border-box;
+
+}
+
+.pdfemb-pagescontainer,
+.pdfemb-inner-div {
+  width: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+  transform: none !important; 
+}
+
+
+.pdfemb-the-canvas {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+  max-width: 100% !important;
+}
+
+iframe {
+  border: 3px solid #6e048c;
+  border-radius: 12px;
+  box-shadow:
+    0 0 10px #c07de7,
+    0 0 20px #c07de7,
+    0 0 30px #c07de7,
+    0 0 40px #c07de7;
+  margin: 0 auto;
+}
+
+/*-----------------ESTILOS PARA EL SEPARADOR NEON MORADO--------------------*/
+
+.separador_neon {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(
+    270deg,
+    #ae89bd,
+    #8e44ad,
+    #8fc0ee,
+    #9b59b6
+  );
+  background-size: 400% 400%;
+  animation: animación_del_neón 3s linear infinite;
+  box-shadow: 0 0 10px #9b59b6, 0 0 20px #8e44ad, 0 0 30px #b19cd9;
+  margin: 40px 0;
+}
+
+@keyframes animación_del_neón {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
