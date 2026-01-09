@@ -22,5 +22,5 @@ This WordPress blog was created as a personal project to **learn WordPress as a 
 
 ⚠️ ***Note: Most of the blog's settings, posts, and media are stored in the WordPress database. Installing the child theme alone will **not replicate the full blog content**. This repository mainly showcases the custom theme, styling, and API integration.***
 
-## Live Demo
+## Live Website
 [Control+Z](https://controlz.lovestoblog.com/)
