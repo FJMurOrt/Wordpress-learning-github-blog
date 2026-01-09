@@ -1,4 +1,4 @@
-# GitHub Resource Blog - Control+Z (WordPress Project)
+# GitHub Blog - Control+Z (WordPress Project)
 
 This WordPress blog was created as a personal project to **learn WordPress as a CMS**, using the Astra theme and a custom child theme. The content of the blog focuses on **GitHub tutorials and resources for beginners**.
 
@@ -15,10 +15,11 @@ This WordPress blog was created as a personal project to **learn WordPress as a 
 - GitHub repository showcase on the About page.
 - Additional minor styling and effects via CSS.
 
-## Installation
-1. Install WordPress and the Astra parent theme.
-2. Upload this child theme folder to `wp-content/themes/`.
-3. Activate the child theme from the WordPress dashboard.
+## What this repository is (and is not)
+✔️ Shows the child theme structure and some custom code 
+✔️ Includes custom CSS and the GitHub API functionality  
+❌ Does NOT include the WordPress database, media files, or plugins  
+❌ It is NOT intended to fully recreate the website by installing the theme
 
 ⚠️ ***Note: Most of the blog's settings, posts, and media are stored in the WordPress database. Installing the child theme alone will **not replicate the full blog content**. This repository mainly showcases the custom theme, styling, and API integration.***
 
