@@ -24,4 +24,4 @@ Este blog en WordPress ha sido creado como proyecto personal para **aprender a u
 ⚠️ ***Nota: La mayoría de la configuración del blog, las entradas y los medios están almacenados en la base de datos de WordPress. Instalar únicamente el tema hijo **no replicará el contenido completo del blog**. Este repositorio muestra principalmente el tema personalizado, los estilos y la integración con la API.***
 
 ## ¡No dudes en visitarlo!
-[Control+Z]([URL](https://controlz.lovestoblog.com/))
+[Control+Z](https://controlz.lovestoblog.com/)
