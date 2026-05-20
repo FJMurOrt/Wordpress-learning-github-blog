@@ -1,4 +1,4 @@
-# GitHub Blog - Control+Z (Proyecto WordPress)
+# Control+Z - Blog para aprender GitHub (Proyecto WordPress)
 
 Este blog en WordPress ha sido creado como proyecto personal para **aprender a utilizar WordPress como CMS**, usando el tema Astra y un tema hijo personalizado. El contenido del blog está centrado en **tutoriales y recursos de GitHub para principiantes**.
 
